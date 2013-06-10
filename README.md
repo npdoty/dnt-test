@@ -25,4 +25,4 @@ To test how your browser reacts to a particular `Tk` response header, browse to,
 
 To test how your browser reacts to a page of frames that use all the `Tk` response headers, browse to `tk-responses.php`.
 
-For now, you can try this out at [http://npdoty.name/dnt-test/echo.php](http://npdoty.name/dnt-test/echo.php) and [http://npdoty.name/dnt-test/tk-response.php](http://npdoty.name/dnt-test/tk-responses.php).
+For now, you can try this out at [http://npdoty.name/dnt-test/echo.php](http://npdoty.name/dnt-test/echo.php) and [http://npdoty.name/dnt-test/tk-responses.php](http://npdoty.name/dnt-test/tk-responses.php).
