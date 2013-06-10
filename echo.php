@@ -8,7 +8,20 @@
 ?>
 <!DOCTYPE html>
 <html>
+<head>
+  <style type="text/css" media="screen">
+    * {
+      font-family: Helvetica, sans-serif;
+    }
+    tt {
+      font-family: "Consolas", monospace;
+      font-size: 140%;
+    }
+  </style>
+  <title>DNT Test Echo</title>
+</head>
 <body>
+  <h1>DNT Test Echo</h1>
   <h2>Request</h2>
   <?php if (isset($dnt)) { ?>
     <p>This page received a <tt>DNT</tt> header value of <tt><?php echo $dnt; ?></tt>.</p>
