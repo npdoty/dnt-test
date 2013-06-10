@@ -16,3 +16,13 @@ On a local machine (say, your Mac laptop), you may want to set up a Virtual Host
             Allow from all
         </Directory>
     </VirtualHost>
+
+## How does it work?
+
+If you want to see the DNT value that your browser is sending, browse to `echo.php`. 
+
+To test how your browser reacts to a particular `Tk` response header, browse to, for example, `echo.php?tk=C`. 
+
+To test how your browser reacts to a page of frames that use all the `Tk` response headers, browse to `tk-responses.php`.
+
+For now, you can try this out at [http://npdoty.name/dnt-test/echo.php](http://npdoty.name/dnt-test/echo.php) and [http://npdoty.name/dnt-test/tk-response.php](http://npdoty.name/dnt-test/tk-responses.php).
